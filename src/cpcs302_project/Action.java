@@ -1,13 +1,10 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ Khaled Alasmari - 2035189
+ Omar abdulrahman abdulbagi - 2037070
+ Salman alhodaly - 2044556
  */
 package cpcs302_project;
 
-/**
- *
- * @author sirkh
- */
 public class Action {
 
     private String type;

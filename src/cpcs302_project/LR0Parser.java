@@ -1,9 +1,10 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ Khaled Alasmari - 2035189
+ Omar abdulrahman abdulbagi - 2037070
+ Salman alhodaly - 2044556
  */
-package cpcs302_project;
 
+package cpcs302_project;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Arrays;
@@ -11,10 +12,6 @@ import java.util.HashMap;
 import java.util.Scanner;
 import java.util.Stack;
 
-/**
- *
- * @author sirkh
- */
 public class LR0Parser {
 
     private Stack<String> stack;
