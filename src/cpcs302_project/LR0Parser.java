@@ -32,7 +32,7 @@ public class LR0Parser {
             String stackValue = stack.peek();
             Action action = actionTable.get(stackValue + currentInput);
             if (action == null) {
-                System.err.println("Syntax Error");
+                System.out.println("Syntax Error");
                 System.exit(1);
             } else if (action.isShift()) {
                 stack.push(currentInput);
@@ -174,6 +174,7 @@ public class LR0Parser {
         actionTable.put("10$", new Action("Reduce", 3));
         // 11
         actionTable.put("11id", new Action("error", -1));
+        actionTable.put("11+", new Action("Reduce", 5));
         actionTable.put("11*", new Action("Reduce", 5));
         actionTable.put("11(", new Action("error", -1));
         actionTable.put("11)", new Action("Reduce", 5));
